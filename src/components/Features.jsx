@@ -32,6 +32,11 @@ const Features = () => {
 			opacity: 1,
 			ease: "power1",
 			duration: 1,
+			scrollTrigger: {
+				trigger: ".g_text",
+				toggleActions: "play pause reverse restart",
+				start: "top 90%",
+			},
 		});
 	});
 

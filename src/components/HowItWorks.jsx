@@ -22,6 +22,11 @@ const HowItWorks = () => {
 			opacity: 1,
 			duration: 1,
 			y: 0,
+			scrollTrigger: {
+				trigger: ".g_fadeIn",
+				toggleActions: "play pause reverse restart",
+				start: "top 90%",
+			},
 		});
 	}, []);
 
