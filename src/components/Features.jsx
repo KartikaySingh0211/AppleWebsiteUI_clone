@@ -27,7 +27,7 @@ const Features = () => {
 			{ scrub: 1 }
 		);
 
-		animateWithGsap(".g_text", {
+		gsap.to(".g_text", {
 			y: 0,
 			opacity: 1,
 			ease: "power1",
