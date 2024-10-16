@@ -24,7 +24,7 @@ const HowItWorks = () => {
 			y: 0,
 			scrollTrigger: {
 				trigger: ".g_fadeIn",
-				toggleActions: "play pause reverse restart",
+				toggleActions: "play pause restart none",
 				start: "top 90%",
 			},
 		});

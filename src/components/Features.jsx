@@ -34,7 +34,7 @@ const Features = () => {
 			duration: 1,
 			scrollTrigger: {
 				trigger: ".g_text",
-				toggleActions: "play pause reverse restart",
+				toggleActions: "play pause restart none",
 				start: "top 90%",
 			},
 		});
